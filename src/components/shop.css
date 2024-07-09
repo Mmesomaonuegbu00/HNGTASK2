@@ -1,0 +1,97 @@
+
+.shop {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+
+.check {
+    color: #333;
+
+
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.ship {
+    color: var(--Primary-text-color, #333);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.dotted-lines {
+    border-bottom: 1px dashed rgba(132, 131, 131, 0.50);
+
+}
+
+.col1 article h3 {
+    color: #333;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+
+}
+
+.col1 article p {
+    color: var(--Primary-text-color, #333);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.col2 h3 {
+    color: #333;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.shop .rows {
+    display: flex;
+    height: 372px;
+    justify-content: space-between;
+
+
+}
+
+form .button1 {
+    display: flex;
+    padding: 16px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 8px;
+    color: rgba(248, 248, 248, 1);
+    background: #FF6F61;
+    width: 100%;
+    border: none;
+    margin-top: -6rem;
+}
+
+form .button2 {
+    display: flex;
+    padding: 16px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: none;
+    background: rgba(248, 248, 248, 1);
+    width: 100%;
+    color: #FF6F61;
+
+}

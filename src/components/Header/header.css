@@ -1,0 +1,76 @@
+.header-search {
+    width: 100%;
+}
+
+.header-search {
+    background: #FFD8D4;
+
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.input-group input {}
+
+
+span {
+    color: rgba(255, 111, 97, 1);
+
+
+}
+
+.NavbarBrand {
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.NavbarBrand .svg {
+    width: 40px;
+    height: 40px;
+}
+
+.NavbarText {
+    color: rgba(44, 62, 80, 1);
+}
+
+.header-icon {
+    margin-left: 4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.NavList Link {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+
+
+}
+
+Nav Link:hover {
+    color: #FF6F61;
+}
+
+.NavImg {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 500px;
+    border: 1px solid;
+
+}
+
+.header-icon i {
+    color: rgba(255, 111, 97, 1);
+}

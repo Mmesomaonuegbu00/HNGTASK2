@@ -1,0 +1,140 @@
+:root {
+    margin: 0 auto;
+
+    background-color: white;
+}
+
+.card-row1 {
+    margin-top: -2rem;
+}
+
+@media (max-width:768px) {
+    .timbu {
+        font-size: 20px;
+    }
+    .input-group {
+        display: none;
+    }
+
+    .NavList {
+        font-size: 24px;
+    }
+
+    .Top-banner img {
+        width: 365px;
+    }
+
+    .Top-banner h1 {
+        font-size: 32px;
+    }
+
+    .Home-bottom {
+        display: none;
+    }
+
+    .Home-bottom2 {
+        display: block;
+
+    }
+
+    .selects {
+        display: flex;
+        padding-left: 80px;
+
+
+    }
+
+    .selects select {
+        width: 62px;
+        margin-top: 1rem;
+    }
+
+    .new-arrivals h1 {
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+      margin-top: 1rem;
+      margin-left: -3rem;
+     
+    }
+
+    .new-arrivals img {
+        width: 40px;
+        height: 50.508px;
+    }
+
+    .new-arrivals {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 55px;
+    }
+
+    .images {
+        display: flex;
+   
+    }
+
+    .Footer1 {
+        display: grid;
+        margin-top: -3rem;
+    }
+
+    .footer-text h1 {
+        font-size: 32px;
+        line-height: 80px
+    }
+
+    .footer-logo {
+        text-align: center;
+        margin-top: rem;
+    }
+
+    .footer-text2 {
+        margin-left: 1rem;
+
+    }
+
+    .card-row1 {
+        padding: 30px;
+        margin-left: -1rem;
+    }
+
+    .Carts {
+        padding: 10px;
+    }
+
+
+    .Carts hr .dotted-lines {
+        display: none;
+    }
+
+    .rows1 {
+        padding: 10px;
+    }
+
+    .copyrights {
+        font-size: 8px;
+        margin-left: -2rem;
+    }
+
+    .ship {
+        font-size: 18px;
+    }
+
+    .shop {
+        padding: 25px;
+    }
+
+    .veiw-img {
+        width: 50%;
+        height: 30%;
+    }
+
+    article p {
+        font-size: 14px;
+    }
+
+}

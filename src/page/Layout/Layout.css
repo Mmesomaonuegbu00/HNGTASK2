@@ -1,0 +1,138 @@
+.Top-banner {
+
+    align-items: center;
+
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
+        url('../Images/Hero.jpg') lightgray 50% / cover no-repeat;
+
+
+}
+
+.Top-banner h1 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+
+.Top-banner p {
+    color: rgba(255, 255, 255, 1);
+}
+
+.Top-banner button {
+    height: 56px;
+    border: navy;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: rgba(255, 111, 97, 1);
+    color: rgba(248, 248, 248, 1);
+    display: flex;
+    width: 147px;
+    padding: 16px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.Top-banner button a {
+    text-decoration: none;
+    color: rgba(248, 248, 248, 1);
+}
+
+
+.new-arrivals {
+width: 100%;
+    background: #FFD8D4;
+    padding-left: 40px;
+    align-items: center;
+    height: 18rem;
+
+
+}
+
+.new-arrivals h1 {
+    color: #FF6F61;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: -6rem;
+}
+
+.new-arrivals img {
+    margin-top: 0rem;
+    margin-left: 2rem;
+}
+.images {
+    display: flex;
+}
+.Home-bottom {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    padding: 0px 80px;
+    margin-left: 17rem;
+
+
+}
+
+.Home-bottom p {
+    color: #333;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 2rem;
+
+
+
+}
+
+.Home-bottom2 {
+    display: none;
+}
+
+.Filters {
+    padding-left: 80px;
+    padding-top: rem;
+    cursor: pointer;
+
+
+}
+
+.Filters:first-child {
+    padding: 2rem;
+}
+
+
+.Home-bottom p:hover {
+    color: rgba(255, 111, 97, 1);
+    border-bottom: rgba(255, 111, 97, 1) 2px solid;
+
+}
+
+.selects select {
+    padding: 0.5rem;
+    background-color: transparent;
+    margin: 0.5rem;
+}
+
+.selects {
+    padding-left: 80px;
+}
+
+.selects select option:hover {
+    color: rgba(255, 111, 97, 1);
+    border-bottom: rgba(255, 111, 97, 1) 2px solid;
+
+}
+
+/* @media (max-width:768px) {
+    :root {
+        background-color: red;
+    }
+    .Top-banner img {
+       width: max-content;
+    }
+
+} */
