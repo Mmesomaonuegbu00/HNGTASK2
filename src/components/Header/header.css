@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.Container {
+    padding: 30px;
+}
+
 .header-search {
     background: #FFD8D4;
 
@@ -54,12 +58,20 @@ span {
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
+    color: black;
+    text-decoration: none;
 
 
 }
 
-Nav Link:hover {
-    color: #FF6F61;
+.NavList {
+    gap: 1rem;
+
+}
+
+Link {
+    color: black;
+
 }
 
 .NavImg {

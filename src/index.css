@@ -115,6 +115,9 @@
         padding: 10px;
     }
 
+    .rows .col2{
+       display: none;
+    }
     .copyrights {
         font-size: 8px;
         margin-left: -2rem;
@@ -124,9 +127,7 @@
         font-size: 18px;
     }
 
-    .shop {
-        padding: 25px;
-    }
+
 
     .veiw-img {
         width: 50%;

@@ -12,17 +12,12 @@ const Layout = () => {
                     <h1 className="display-4">Discover Our Latest <br /><span>Arrivals!</span></h1>
                     <p className="lead">Discover must have essentials at unbeatble prices</p>
 
-                    <button className=""><Link to='../Shop'></Link>   </button>
-=======
-
-
-
-
+                    <button className=""><Link to='../Shop'>Shop Now</Link>   </button>
                 </div >
 
             </section >
 
-            <div className="row new-arrivals">
+            {/* <div className="row new-arrivals">
 
                 <h1><span>NEW ARRIVALS</span></h1>
 
@@ -39,7 +34,7 @@ const Layout = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
 
             <div className="Home-bottom">

@@ -49,7 +49,7 @@ const Shop = () => {
                         Save this for future use
                     </label>
                 </div>
-                <hr className="dotted-lines" />
+                <hr className="dotted-lines d-none d-sm-block" />
 
 
 
@@ -80,7 +80,7 @@ const Shop = () => {
                         <input type="text" className="form-control" id="inputPassword4" placeholder="******" />
                     </div>
                 </div>
-                <hr className="dotted-lines" />
+                <hr className="dotted-lines d-none d-sm-block" />
                 <h3 className="ship">Order summary</h3>
                 <div className="rows">
                     <div className="col1">
@@ -99,7 +99,7 @@ const Shop = () => {
                             <h3>$50.00</h3>
                         </article>
                     </div>
-                    <div className="col2">
+                    <div className="col2 d-none d-sm-block">
                         <h3>1</h3>
                         <h3>1</h3>
                         <h3>1</h3>
@@ -107,15 +107,14 @@ const Shop = () => {
                     </div>
                 </div>
 
-                <hr className="dotted-lines" />
-
+                <hr className="dotted-lines d-none d-sm-block" />
                 <div className="rows">
                     <div className="col1">
                         <p>Sub Total</p>
                         <p>Delivery</p>
                         <p>Total</p>
                     </div>
-                    <div className="col2">
+                    <div className="col2 d-none d-sm-block">
                         <h3>$12,000</h3>
                         <h3>$50.00</h3>
                         <h3>$12,050</h3>

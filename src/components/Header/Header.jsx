@@ -14,15 +14,15 @@ const Header = () => {
         <>
 
             <div className="Container">
-                <div className="row header-search ">
+                {/* <div className="row header-search ">
                     <div className="header-icon">
                         <i className="bi bi-telephone"></i>
                         <i className="bi bi-instagram"></i>
                         <i class="bi bi-browser-chrome"></i>
-                    </div>
+                    </div> 
 
                     <img src="./Images/Frame.png" alt="" className="NavImg" />
-                </div>
+                </div> */}
 
                 <Navbar expand="lg" className="justify-content-between">
                     <Container fluid>
@@ -34,7 +34,7 @@ const Header = () => {
                         </Navbar.Brand>
 
                         <div className="input-group">
-                            <input type="text" class="form-control" placeholder="search" />
+                            <input type="text" className="form-control" placeholder="search" />
 
 
                         </div>
@@ -42,25 +42,25 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="NavList text-center">
-                                <Nav.Link href="./" className="NavList ">Home</Nav.Link>
+                                <Link to="/">Home</Link>
                                 <Link to="../Shop">Shop</Link>
-                                <Nav.Link href="#">About</Nav.Link>
-
+                                <Link to="../About">About</Link>
+                                <Link to="/">Contact</Link>
                             </Nav>
 
-
-                        </Navbar.Collapse>
-                        <div className="UserProfile d-none d-sm-block">
+                            <div className="UserProfile d-sm-flex d-none d-sm-block">
                             <UserSvg />
 
-
+                            <img src="./Images/Frame.png" alt="" className="NavImg" />
                         </div>
+                        </Navbar.Collapse>
+                        
 
 
 
                     </Container>
                 </Navbar>
-                <hr />
+                
             </div>
 
         </>
