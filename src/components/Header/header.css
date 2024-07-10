@@ -2,10 +2,6 @@
     width: 100%;
 }
 
-.Container {
-    padding: 30px;
-}
-
 .header-search {
     background: #FFD8D4;
 
@@ -52,7 +48,7 @@ span {
     gap: 1rem;
 }
 
-.NavList Link {
+.my-link {
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -63,7 +59,9 @@ span {
 
 
 }
-
+.my-link:hover{
+    color: rgba(255, 111, 97, 1);
+}
 .NavList {
     gap: 1rem;
 

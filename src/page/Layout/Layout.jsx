@@ -8,6 +8,8 @@ const Layout = () => {
     return (
         <>
             <section className="Home">
+            <hr />
+                
                 <div className="jumbotron Top-banner">
                     <h1 className="display-4">Discover Our Latest <br /><span>Arrivals!</span></h1>
                     <p className="lead">Discover must have essentials at unbeatble prices</p>

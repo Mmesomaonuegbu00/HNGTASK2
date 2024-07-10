@@ -33,7 +33,7 @@ const Header = () => {
                             </div>
                         </Navbar.Brand>
 
-                        <div className="input-group">
+                        <div className="input-group m-2">
                             <input type="text" className="form-control" placeholder="search" />
 
 
@@ -42,14 +42,14 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="NavList text-center">
-                                <Link to="/">Home</Link>
-                                <Link to="../Shop">Shop</Link>
-                                <Link to="../About">About</Link>
-                                <Link to="/">Contact</Link>
+                                <Link to="/" className="my-link">Home</Link>
+                                <Link to="../Shop" className="my-link">Shop</Link>
+                                <Link to="../About" className="my-link">About</Link>
+                                <Link to="/" className="my-link">Contact</Link>
                             </Nav>
 
                             <div className="UserProfile d-sm-flex d-none d-sm-block">
-                            <UserSvg />
+                          <Link to='../Cart'> <UserSvg /></Link> 
 
                             <img src="./Images/Frame.png" alt="" className="NavImg" />
                         </div>

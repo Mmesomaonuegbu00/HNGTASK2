@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="footer-logo">
                     <div className="footer-text2">
                         <SvgComponent />
-                        <span>Shop</span><span className="NavbarText">Ease</span>
+                        <span>Shop</span><span className="">Ease</span>
                     </div>
                     <br />
                     <div className="footer-links">
