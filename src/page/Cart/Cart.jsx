@@ -20,10 +20,10 @@ const Cart = () => {
                     <div className="col">
                         <img src="./Images/product1.png" alt="" className="img-fluid" />
                     </div>
-                    <div className="col ">
+                   
                         <div className="row cart-col2">
 
-                            <article>
+                            <article className="">
                                 <p>Grey Nike Air Force 1</p>
                                 <p>Size  40</p>
                                 <span className="color1">
@@ -39,14 +39,14 @@ const Cart = () => {
                             </div>
 
                         </div>
-                    </div>
+                  
                 </div>
                 <hr className="dotted-lines d-none" />
                 <div className="d-sm-flex cart-row1 my-4">
                     <div className="col">
                         <img src="./Images/product5.png" alt="" className="img-fluid" />
                     </div>
-                    <div className="col ">
+                  
                         <div className="row cart-col2">
 
                             <article>
@@ -66,7 +66,7 @@ const Cart = () => {
 
 
                         </div>
-                    </div>
+                  
                 </div>
                 <hr className="dotted-lines d-none " />
 
@@ -74,7 +74,7 @@ const Cart = () => {
                     <div className="col">
                         <img src="./Images/product6.png" alt="" className="img-fluid" />
                     </div>
-                    <div className="col ">
+                
                         <div className="row cart-col2">
 
                             <article>
@@ -94,7 +94,7 @@ const Cart = () => {
 
 
                         </div>
-                    </div>
+                    
                 </div>
                 <hr className="dotted-lines d-none d-sm-block" />
                 <div className="rows1">

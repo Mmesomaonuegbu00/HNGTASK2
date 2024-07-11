@@ -14,7 +14,7 @@ const Footer = () => {
 
                 <div className="footer-text">
                     <h1>Like What <br />You See?</h1>
-                    <button className=""><Link to='../Shop'>Shop Now</Link>   </button>
+                    <button ><Link to='../Shop'className="shopnow">Shop Now</Link>   </button>
                 </div>
 
 
